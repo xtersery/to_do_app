@@ -15,6 +15,7 @@ final darkTheme = ThemeData(
           ),
         useMaterial3: true,
         textTheme: const TextTheme(
+          labelSmall: TextStyle(fontSize: 25, fontWeight: FontWeight.w400, letterSpacing: -0.2),
           labelMedium: TextStyle(fontSize: 30, fontWeight: FontWeight.w700, letterSpacing: -0.3)
         ),
         appBarTheme: const AppBarTheme(
